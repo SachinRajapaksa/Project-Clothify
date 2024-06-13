@@ -1,0 +1,60 @@
+
+	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷¥å”2J$f8b7ef0f-c71f-4903-b675-c09a9ef6ac58
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷¥å”2J$e3d3566e-fa44-4d78-9241-8a67bef6b02c
+	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷¥å”2J$95d5b6ea-a5fb-4299-8bb4-4f70becb7f53
+	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8÷¥å”2J$51a9ac97-71a3-462c-a1ea-afca330ce7dc
+r
+java:S3740""/Provide the parametrized type for this generic.(ƒ¦ùŠ8ø¥å”2J$e156e75c-3e50-440d-b109-46b04be79226
+}
+java:S1141I"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ú¥å”2J$2f5213e6-d93c-4080-bad9-fad171146eb4
+—
+java:S1104"TMake txtEmpID a static final constant or non-public and provide accessors if needed.(¯‰ëú8û¥å”2J$ac284ece-b789-412d-84e7-b3d8b8b95e40
+›
+java:S1104"XMake txtFirstName a static final constant or non-public and provide accessors if needed.(µõÄú8û¥å”2J$0377bed0-9e01-4a16-82ac-681453c2cd4b
+š
+java:S1104"WMake txtLastName a static final constant or non-public and provide accessors if needed.(ÁŠÂ 8û¥å”2J$c0d59872-ceed-46e7-9eab-97b51504dfc0
+›
+java:S1104"SMake dateDOB a static final constant or non-public and provide accessors if needed.(ÍÁÕıÿÿÿÿ8û¥å”2J$8f936c26-71a1-4a9d-8022-a855452242d3
+œ
+java:S1104 "TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8û¥å”2J$bed7f2b8-540d-4427-b22f-430a37646473
+Ÿ
+java:S1104!"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8û¥å”2J$a5ae77e1-c054-4603-8c7c-79cf1bad7626
+™
+java:S1104""VMake cmbAccType a static final constant or non-public and provide accessors if needed.(ƒ¦ùŠ8û¥å”2J$3ef02fb1-5e6e-4ee6-8717-fd94209d18e6
+”
+java:S1104$"QMake CBAcc a static final constant or non-public and provide accessors if needed.(¤Í‹¼8û¥å”2J$c20b6e32-e510-4418-ab80-6645213e0478
+k
+java:S5411¡"(Use a primitive boolean expression here.(íôÓ-8ü¥å”2J$ceccecff-1e68-467c-aeb8-df1edbdfe475
+Ï
+java:S2681="†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ø“¢ãûÿÿÿÿ8ÿ¥å”2J$54600dc6-3d06-4a2c-bbab-0fbc44cd50c2
+
+java:S20959"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8Å¦å”2J$bfef12bc-3bba-4776-b8e0-9c02d426c148
+‹
+java:S2095‰"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïí–¬8Å¦å”2J$cf0d7419-2b6c-44fe-a637-b43e01884817
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Å¦å”2J$ba360d30-cd39-469b-9f05-c91c8bf28734
+
+java:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8Å¦å”2J$ef03e684-610e-46c3-ad58-f3300261d07f
+’	java:S116$"PRename this field "CBAcc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Í‹¼8Æ¦å”2J$7c0cdb12-699e-4d01-9f66-1191f1fc7f3a
+É
+java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–î×”şÿÿÿÿ8Ç¦å”2J$b5c361b8-0f23-4bae-b99a-d3a849ec8646
+u
+java:S1172+"2Remove this unused method parameter "actionEvent".(áÄ´ü8Ê¦å”2J$40a37bd1-421c-4565-8b7f-6ba5ee920c41
+u
+java:S11727"2Remove this unused method parameter "actionEvent".(¶ú‡ó8Ì¦å”2J$91e2dc95-f5ac-4c31-addc-ae525dcadb18
+m	java:S106:"+Replace this use of System.out by a logger.(ÀÚğ×8Î¦å”2J$cea7c227-f94b-4be5-ad14-17da29f701aa
+j
+java:S1125;"'Remove the unnecessary boolean literal.(î×ğª8Ï¦å”2J$c01f26b8-3ff9-4db0-b162-d9c23795d928
+ƒ
+java:S1854G";Remove this useless assignment to local variable "execute".( ºğ€ıÿÿÿÿ8Ò¦å”2J$4ba01276-b89b-45d3-a5be-0ca4126d1dd2
+t
+java:S1481G",Remove this unused "execute" local variable.( ºğ€ıÿÿÿÿ8Ô¦å”2J$f69618d1-0cb0-4779-be5a-79fb01aae338
+t
+java:S1172V"2Remove this unused method parameter "actionEvent".(š¯.8Õ¦å”2J$146b1d36-60a4-4989-8a69-6504081a96f8
+o
+java:S1125d"'Remove the unnecessary boolean literal.(¨Ú¬°ûÿÿÿÿ8Ø¦å”2J$0fc26738-a75d-4a46-9b0f-b64602a6e95d
+–	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëáû’üÿÿÿÿ8Ş¦å”2J$2466db0e-3596-404b-8110-985b9736874a
+{
+java:S1172"2Remove this unused method parameter "actionEvent".(Ëáû’üÿÿÿÿ8Ş¦å”2J$4fc38b19-bc70-48e2-91e4-43e196b9f43a
+j
+java:S1125¡"'Remove the unnecessary boolean literal.(íôÓ-8ß¦å”2J$ea08240f-fb73-4fb3-8a79-a01b7897f465

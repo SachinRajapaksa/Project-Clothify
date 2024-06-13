@@ -1,0 +1,49 @@
+
+	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŸÈÉ‘2J$599be8ae-36ae-4712-a58a-3531679639d7
+r
+java:S3740#"/Provide the parametrized type for this generic.(ƒ¦ùŠ8 ÈÉ‘2J$a0d98e8e-d8ed-4df0-9c2d-4010ee69a9db
+—
+java:S1104"TMake txtEmpID a static final constant or non-public and provide accessors if needed.(¯‰ëú8¢ÈÉ‘2J$62f92abe-039c-4ba7-a70c-714aefa66662
+›
+java:S1104"XMake txtFirstName a static final constant or non-public and provide accessors if needed.(µõÄú8¢ÈÉ‘2J$c09da157-2db6-47de-bf9a-e0b1f719f2be
+š
+java:S1104"WMake txtLastName a static final constant or non-public and provide accessors if needed.(ÁŠÂ 8¢ÈÉ‘2J$13831313-b41c-4ad9-9a8b-33becb787451
+›
+java:S1104 "SMake dateDOB a static final constant or non-public and provide accessors if needed.(ÍÁÕıÿÿÿÿ8¢ÈÉ‘2J$2bc36324-342e-45b1-a79f-d26d5121f12a
+œ
+java:S1104!"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8¢ÈÉ‘2J$e9bb4cd1-3698-4ae1-8b55-4f0e3ca04985
+Ÿ
+java:S1104""WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8¢ÈÉ‘2J$c0b18a94-6d9a-4069-adaa-931df337791b
+™
+java:S1104#"VMake cmbAccType a static final constant or non-public and provide accessors if needed.(ƒ¦ùŠ8¢ÈÉ‘2J$e603de05-ef0c-45e4-bc36-b28327c7023c
+”
+java:S1104%"QMake CBAcc a static final constant or non-public and provide accessors if needed.(¤Í‹¼8¢ÈÉ‘2J$7333b565-2e56-41b1-8196-a7b0d075a4e0
+k
+java:S5411‚"(Use a primitive boolean expression here.(íôÓ-8ôÜÉ‘2J$ddbe3109-5269-4ed0-9828-3e30e22e613f
+
+java:S2095_"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8€Ò‘2J$7b10885e-9b31-450d-9ce1-9dec6786bb51
+Š
+java:S2095i"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïí–¬8€Ò‘2J$ab73587c-6628-427a-b1a7-5c94b52195fb
+’	java:S116%"PRename this field "CBAcc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Í‹¼8’€Ò‘2J$831a4cc3-b629-4666-9c7f-a4a6576cd63c
+É
+java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–î×”şÿÿÿÿ8’€Ò‘2J$c16555e5-e985-46bd-8345-c52776fa538b
+Ä
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶ú‡ó8’€Ò‘2J$d13449d2-2e39-4247-b0a0-a8b3a597a34d
+É
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿˜å•øÿÿÿÿ8“€Ò‘2J$7fc8ec1f-b808-414b-bd2e-e500da6eadc8
+u
+java:S1172,"2Remove this unused method parameter "actionEvent".(áÄ´ü8˜€Ò‘2J$f0bf6d75-d402-46a6-8032-40f7165dd679
+}
+java:S1854J"5Remove this useless assignment to local variable "b".(¿’úøÿÿÿÿ8€Ò‘2J$c1e35a01-48a1-4ea9-ab9b-4c744c428554
+t
+java:S1172="2Remove this unused method parameter "actionEvent".(š¯.8€Ò‘2J$7e091859-97fa-4eff-9ac5-8726152f7d2f
+n
+java:S1481J"&Remove this unused "b" local variable.(¿’úøÿÿÿÿ8¦€Ò‘2J$db1d1459-36ea-4b17-a944-37bc781cd647
+•	java:S100~"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëáû’üÿÿÿÿ8¶€Ò‘2J$f0b1cb09-deaa-4b04-a7a0-c5580b1a9f19
+z
+java:S1172~"2Remove this unused method parameter "actionEvent".(Ëáû’üÿÿÿÿ8·€Ò‘2J$9a3526ef-dda2-4338-8f61-af41a6060c7a
+m	java:S106"+Replace this use of System.out by a logger.(×ÜÅ8¹€Ò‘2J$86ee74d3-1841-4156-bb4a-b6ed7005d5d7
+j
+java:S1125‚"'Remove the unnecessary boolean literal.(íôÓ-8º€Ò‘2J$b0095d31-0168-42fb-9238-113f6f738611
+‚
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¼€Ò‘2J$f5a5de4d-96c3-435f-88ef-8a059dc30a20

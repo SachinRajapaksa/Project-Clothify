@@ -1,0 +1,12 @@
+
+œ
+java:S1104	"TMake txtEmail a static final constant or non-public and provide accessors if needed.(„Å«ıÿÿÿÿ8·é™ş€2J$fb01b33a-de0a-4840-97bc-12b11c3a5833
+š
+java:S1104
+"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¨ğû8·é™ş€2J$58d2d30b-d49f-424c-b380-9a7d1d13ba03
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½ÊË°ûÿÿÿÿ8åé™ş€2J$7ff03baf-751f-4d21-8976-b7b56f769780
+z
+java:S1172"2Remove this unused method parameter "actionEvent".(Ùõášşÿÿÿÿ8êé™ş€2J$575ea05d-b888-492f-a6be-ced78cc9cb6d
+m	java:S106"+Replace this use of System.out by a logger.(÷ùÊÂ8íé™ş€2J$fbe5d4bf-ee4c-45fc-8f13-a69232794437
+r	java:S106"+Replace this use of System.out by a logger.(êÓæøùÿÿÿÿ8îé™ş€2J$da403355-7e7a-4586-815d-6afab71c6a4a
