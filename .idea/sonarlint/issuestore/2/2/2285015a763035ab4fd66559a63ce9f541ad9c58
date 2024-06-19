@@ -1,0 +1,50 @@
+
+	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ϋ™ιω‚2J$56ab83ed-c532-49bc-9cab-d0a461d70f9e
+	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ό™ιω‚2J$cb1b7c2d-7cc4-49da-929d-a966254a69a8
+	java:S112{"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ό™ιω‚2J$1c78f343-910d-4cd0-bf6a-17646f2b9e64
+΅
+java:S1104"YMake txtSupplierID a static final constant or non-public and provide accessors if needed.( ύνψÿÿÿÿ8€ιω‚2J$5a79aadf-dbac-4b5f-8eeb-bd68cd9dfd51
+
+java:S1104"UMake btnSearch a static final constant or non-public and provide accessors if needed.(ΙΉΔ8€ιω‚2J$c8fc40b2-dc58-470b-982a-4e147548e18f
+£
+java:S1104"[Make txtSupplierName a static final constant or non-public and provide accessors if needed.(Ν­΄άωÿÿÿÿ8€ιω‚2J$06f80e5f-1851-4509-835c-0ae93d87770c
+
+java:S1104"ZMake txtCompanyName a static final constant or non-public and provide accessors if needed.(‚¶ΙΗ8€ιω‚2J$10f92d0e-34a8-4407-9bcc-a29ed93970e9
+
+java:S1104"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ψ¦½όÿÿÿÿ8€ιω‚2J$6b3718ab-0904-4052-b9ad-d8aae61472e7
+”
+java:S1104"QMake CBSup a static final constant or non-public and provide accessors if needed.( µι8€ιω‚2J$5acc72a5-aebf-40a0-a01d-f7aefaab62d9
+j
+java:S5411X"(Use a primitive boolean expression here.(ντΣ-8„ιω‚2J$f983c2d4-3afe-4aac-acf7-e833b3fd484f
+‰
+java:S2095j"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÒΨZ8±›ιω‚2J$16bea811-9e6b-4fc3-8b72-24a3bba02f0e
+
+java:S2095-"GUse try-with-resources or close this "Statement" in a "finally" clause.(ο§ήω8±›ιω‚2J$31d1fc11-35ea-4c5c-aa33-aeffa88820dc
+
+java:S2095`"GUse try-with-resources or close this "Statement" in a "finally" clause.(ι°Αµώÿÿÿÿ8±›ιω‚2J$cfd44481-5b7a-47f1-9398-dd918a675647
+
+java:S20958"GUse try-with-resources or close this "Statement" in a "finally" clause.(ο§ήω8±›ιω‚2J$9f1b30dd-7665-4036-80a9-d5668279f187
+’	java:S116"PRename this field "CBSup" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( µι8³›ιω‚2J$dde4d5d0-5751-4548-bdf0-9521a8004206
+u
+java:S1172#"2Remove this unused method parameter "actionEvent".(αΔ΄ό8Έ›ιω‚2J$100f94cb-f843-4c35-b12d-68514fad571f
+u
+java:S1172+"2Remove this unused method parameter "actionEvent".(¶ϊ‡σ8Χ›ιω‚2J$cef5ef3a-0d6c-41e7-a80d-f0300d1a76e0
+j
+java:S1125."'Remove the unnecessary boolean literal.(ξΧπª8Ϊ›ιω‚2J$dba914cd-031c-4b9e-b285-4f645c2bd95d
+~
+java:S18548";Remove this useless assignment to local variable "execute".(ο§ήω8ΰ›ιω‚2J$66a0fefc-336d-41af-a0c3-65230aaab615
+o
+java:S14818",Remove this unused "execute" local variable.(ο§ήω8δ›ιω‚2J$ba06e238-e08d-4771-9eff-44e887c0b5e5
+z
+java:S1172@"2Remove this unused method parameter "actionEvent".(»…δ«ωÿÿÿÿ8ζ›ιω‚2J$5673fd1e-375e-4b48-a9d5-efd4170e8366
+o
+java:S1125H"'Remove the unnecessary boolean literal.(¨Ϊ¬°ϋÿÿÿÿ8θ›ιω‚2J$12749f23-dc33-407b-a3ff-dc39932da1a3
+•	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ϊ ϋÿÿÿÿ8λ›ιω‚2J$58c799f2-7ed0-438e-9105-51de86dfb3e0
+z
+java:S1172U"2Remove this unused method parameter "actionEvent".(‰ϊ ϋÿÿÿÿ8μ›ιω‚2J$d19c2c60-5688-439b-bf94-246bfd03cfb4
+i
+java:S1125X"'Remove the unnecessary boolean literal.(ντΣ-8ν›ιω‚2J$6bda4fbc-bd49-4b3e-8db9-0f4dfb0f0ccb
+p
+java:S1128"(Remove this unused import 'lombok.Data'.(χν«ÿÿÿÿÿ8ύ›ιω‚2J$a778bf7c-409c-4fb9-bf67-25421de1a760
+x
+java:S1128"5Remove this unused import 'java.text.ParseException'.(ρ®ο•8ύ›ιω‚2J$58a74724-e0e7-4309-915d-68128f2499a9

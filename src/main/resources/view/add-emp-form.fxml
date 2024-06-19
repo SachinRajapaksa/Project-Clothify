@@ -12,7 +12,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="438.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ManageEmpFormController">
+<AnchorPane prefHeight="438.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.user.ManageUserFormController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b2beb5" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
       <Label layoutX="131.0" layoutY="13.0" text="Empleyee Manage">
