@@ -21,7 +21,7 @@ public class DashboardFormController  {
 
     }
 
-    public void btnFrontSystemOnAction(ActionEvent actionEvent) {
+    public void btnFrontSystemOnAction() {
     }
 
     public void btnItemOnAction() throws IOException {
@@ -40,19 +40,15 @@ public class DashboardFormController  {
         stage1.getIcons().add(new Image(Main.class.getResourceAsStream("img/supplier.png")));
         stage1.setTitle("Manage Supplier");
         stage1.show();
-        if (stage1.isShowing()) {
-            //Stage stage = new Stage();
-            //Main.closeDash(stage);
 
-        }
 
 
 
     }
 
 
-    public void btnReportOnActon(ActionEvent actionEvent) {
-    }
+    public void btnReportOnActon() {}
+
 
 
 }
