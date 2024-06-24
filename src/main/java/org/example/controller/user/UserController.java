@@ -1,12 +1,14 @@
 package org.example.controller.user;
 
+import javafx.collections.ObservableList;
 import org.example.Util.CrudUtil;
+import org.example.dto.Supplier;
 import org.example.dto.User;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class UserController {
+public class UserController implements UserService{
     private static UserController instance;
     private UserController(){}
     public static UserController getInstance(){
@@ -56,5 +58,7 @@ public class UserController {
         return user;
 
     }
+
+
 
 }
