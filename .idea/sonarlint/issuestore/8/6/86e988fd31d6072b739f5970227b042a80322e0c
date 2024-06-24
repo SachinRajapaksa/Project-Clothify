@@ -1,10 +1,8 @@
 
-	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Û§€÷‚2J$4747ad95-74e6-4f09-ac64-8f75c2c95967
-	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8İ§€÷‚2J$0e5366b7-9f3b-45d7-ba28-15fcb3c66b35
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷¸•8Ş§€÷‚2J$f7eb80d4-5318-4794-9c85-09754f995cca
-˜	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰´¬óûÿÿÿÿ8Ş§€÷‚2J$ac5dc7ed-524a-468e-8a9b-ac9384db69d5
-£
-java:S14889"`Immediately return this expression instead of assigning it to the temporary variable "supplier".(¢ú•¾8ß§€÷‚2J$2b7f6b3c-0262-462d-a9c7-a9c5aa5b9f4f
-Ü
-java:S6548
-"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ô­Ù”8ë§€÷‚2J$0ce8be22-21a2-430f-8980-578d4167390e
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8üÉÀ³ƒ2J$b97041a5-ac2d-49cd-bd1c-a68772d117fb
+	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8şÉÀ³ƒ2J$483c0d93-9bd4-49f6-80c1-ae61100db83b
+	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÿÉÀ³ƒ2J$23fd4895-7a78-48fb-a2c0-977bee34350f
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷¸•8ÊÀ³ƒ2J$fff50e8d-06c9-4cc2-8683-5a20beda019a
+˜	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰´¬óûÿÿÿÿ8ÊÀ³ƒ2J$96c84993-20eb-4285-9136-c283c594a192
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÿÓ±şÿÿÿÿ8ªÊÀ³ƒ2J$94f0de0e-20f3-418e-aefe-d4031135dee4

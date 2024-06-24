@@ -10,8 +10,8 @@ import lombok.ToString;
 @Data
 @ToString
 public class Supplier {
-    private String SuppID;
-    private String SuppName;
-    private String SuppCompany;
-    private String SuppEmail;
+    private String suppID;
+    private String suppName;
+    private String suppCompany;
+    private String suppEmail;
 }

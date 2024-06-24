@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="495.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.item.ManageItemFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="400.0" />
+      <Label layoutX="128.0" layoutY="13.0" text="Item Register">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtItemCode" editable="false" layoutX="14.0" layoutY="96.0" onAction="#txtItemCodeOnAction" promptText="Item Code" />
+      <Button layoutX="176.0" layoutY="97.0" mnemonicParsing="false" onAction="#btnSearchOnAction" text="Search" />
+      <ComboBox fx:id="cmbSuppId" layoutX="14.0" layoutY="136.0" prefWidth="150.0" promptText="Supplier ID" />
+      <TextField fx:id="txtSupplierCompany" alignment="CENTER" editable="false" layoutX="14.0" layoutY="181.0" prefHeight="25.0" prefWidth="370.0" text="Supplier Company" />
+      <JFXCheckBox fx:id="cbExistItem" layoutX="288.0" layoutY="68.0" onAction="#CBExistItemOnAction" prefHeight="18.0" prefWidth="86.0" text="Exist Item" />
+      <Label layoutX="14.0" layoutY="218.0" prefHeight="23.0" prefWidth="160.0" text="Product Details" underline="true">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtDescription" alignment="BOTTOM_CENTER" layoutX="15.0" layoutY="256.0" prefHeight="27.0" prefWidth="370.0" promptText="Product Description" AnchorPane.leftAnchor="15.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXTextField>
+      <ComboBox fx:id="cmbSizes" layoutX="139.0" layoutY="303.0" prefHeight="25.0" prefWidth="119.0" promptText="Select the size" />
+      <JFXTextField fx:id="txtQty" alignment="BOTTOM_LEFT" layoutX="139.0" layoutY="340.0" prefHeight="27.0" prefWidth="150.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="29.0" layoutY="305.0" text="Sizes">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="350.0" text="Adding QTY">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtUnitPrice" alignment="BOTTOM_LEFT" layoutX="138.0" layoutY="382.0" prefHeight="27.0" prefWidth="150.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="28.0" layoutY="394.0" text="Unit Price">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="71.0" layoutY="449.0" mnemonicParsing="false" onAction="#btnAddmoreSizes" style="-fx-background-color: #028391;" text="Add more sizes" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <JFXButton layoutX="183.0" layoutY="449.0" onAction="#btnRemoveOnAction" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: FF0000;" text="Remove" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="259.0" layoutY="449.0" onAction="#btnUpdateOnAction" prefWidth="60.0" style="-fx-background-color: #524C42;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="330.0" layoutY="449.0" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #5AB2FF;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblSuppStatus" layoutX="185.0" layoutY="140.0" prefHeight="17.0" prefWidth="173.0" textFill="RED" />
+      <Label fx:id="lblSizeStatus" layoutX="263.0" layoutY="307.0" prefHeight="17.0" prefWidth="119.0" textFill="RED" />
+   </children>
+</AnchorPane>

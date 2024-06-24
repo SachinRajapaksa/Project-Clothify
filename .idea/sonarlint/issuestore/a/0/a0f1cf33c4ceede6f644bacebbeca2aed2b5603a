@@ -1,0 +1,72 @@
+
+	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŒÚ÷Ç„2J$966c9e53-d906-43f4-a3ce-7fdce5d4adad
+	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$b2d5eff8-9c43-43c6-8348-b34ab2c6b6e2
+	java:S112ç"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$330b58b0-685a-4b23-a6a4-1ff63244fb97
+w
+java:S3740 "/Provide the parametrized type for this generic.(´å¯Ğıÿÿÿÿ8Ú÷Ç„2J$6611ae70-5fa0-433e-9f92-ac2a40671080
+r
+java:S3740$"/Provide the parametrized type for this generic.(ĞÇÀ8Ú÷Ç„2J$7fee8e20-de24-4136-931e-a9f1291f7884
+™
+java:S1192v"QDefine a constant instead of duplicating this literal "Supplier Company" 4 times.(¢µúÌùÿÿÿÿ8Ú÷Ç„2J$45b36014-9bee-4e41-b3df-ef8a26f95fc9
+“
+java:S1192x"PDefine a constant instead of duplicating this literal "Select Supplier" 4 times.(²ùì8Ú÷Ç„2J$383ef5f3-1166-457c-9e4b-7b3d9133e83b
+
+java:S1192{"LDefine a constant instead of duplicating this literal "Select Size" 4 times.(×ò±e8Ú÷Ç„2J$178f9d6e-dfe4-40be-b07d-edefc7c323ac
+™	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¬Ôüÿÿÿÿ8‘Ú÷Ç„2J$d32dc1a6-04a5-4c5c-a116-265d9384604a
+Ÿ
+java:S1104"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(Ê—›¶üÿÿÿÿ8’Ú÷Ç„2J$85ed8a47-ef2a-4523-9f85-7ab7ba93d3cd
+
+java:S1104 "UMake cmbSuppId a static final constant or non-public and provide accessors if needed.(´å¯Ğıÿÿÿÿ8’Ú÷Ç„2J$b6bdefa4-1e5e-4bb8-815a-7b7505b4196c
+¦
+java:S1104!"^Make txtSupplierCompany a static final constant or non-public and provide accessors if needed.(è¬øÿÿÿÿ8’Ú÷Ç„2J$bb16c8fb-99c2-4244-995e-2ad55d284739
+Ÿ
+java:S1104""WMake cbExistItem a static final constant or non-public and provide accessors if needed.(“Î¿°øÿÿÿÿ8’Ú÷Ç„2J$2b42f764-d362-4654-b29c-6f4b10ec3150
+¢
+java:S1104#"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8’Ú÷Ç„2J$f780210c-b69b-4b18-adea-b39574eb1b7f
+—
+java:S1104$"TMake cmbSizes a static final constant or non-public and provide accessors if needed.(ĞÇÀ8’Ú÷Ç„2J$e1e677fb-973d-4a32-8025-5e628da2bdad
+š
+java:S1104%"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8’Ú÷Ç„2J$144a45a1-6627-4367-8a1c-4fcf3f89f5c9
+ 
+java:S1104&"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8’Ú÷Ç„2J$8f71dffc-0794-4389-bbec-4058d5793268
+¡
+java:S1104'"YMake lblSuppStatus a static final constant or non-public and provide accessors if needed.(‘õáöùÿÿÿÿ8’Ú÷Ç„2J$5fbb3b8a-157f-4497-9ea9-41e4948a728a
+¡
+java:S1104("YMake lblSizeStatus a static final constant or non-public and provide accessors if needed.(ªëá¬ùÿÿÿÿ8’Ú÷Ç„2J$00339d97-8b75-4175-b25e-bd4567a7391a
+j
+java:S5411H"(Use a primitive boolean expression here.(íôÓ-8”Ú÷Ç„2J$c734a776-88e9-4c9e-9c3d-aa409506e2ea
+„
+java:S4973v"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$f03b684b-1cb3-41f2-bb20-e0a4d94438f7
+…
+java:S4973Ÿ"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$3f9a933e-88df-4f7b-8b2b-26560b85a341
+
+java:S2095À"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8éÚ÷Ç„2J$b5b90c5d-ef46-4852-80cc-01df1108b19e
+
+java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8éÚ÷Ç„2J$8c0c5b1f-98dc-43b1-abeb-06ab64fbfb2d
+
+java:S2095Ì"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8éÚ÷Ç„2J$430b037f-aa11-4eff-8db8-5935f1d3a4d1
+
+java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8éÚ÷Ç„2J$aa4a5862-61c3-49c5-b1cd-6050576e94a7
+u
+java:S11729"2Remove this unused method parameter "actionEvent".(áÄ´ü8ïÚ÷Ç„2J$24727854-21ed-4b81-bb12-0f065dbd9457
+•	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³çÅ°ùÿÿÿÿ8òÚ÷Ç„2J$03a16aea-f148-4946-aaad-9029454dd9a7
+z
+java:S1172D"2Remove this unused method parameter "actionEvent".(³çÅ°ùÿÿÿÿ8óÚ÷Ç„2J$d2949040-fe59-478e-85a1-9a3ccc1ea7ad
+i
+java:S1125H"'Remove the unnecessary boolean literal.(íôÓ-8ôÚ÷Ç„2J$2d6af140-7521-4bb8-b761-0433f1f17dfb
+z
+java:S1172_"2Remove this unused method parameter "actionEvent".(»…ä«ùÿÿÿÿ8÷Ú÷Ç„2J$ab05e4ee-af07-4411-b4f7-35fb788aee44
+r	java:S106r"+Replace this use of System.out by a logger.(ëß·ìıÿÿÿÿ8úÚ÷Ç„2J$604ebab8-93e5-4e2a-b586-18c40c9ac14a
+{
+java:S1172…"2Remove this unused method parameter "actionEvent".(Û«ŒÒÿÿÿÿÿ8üÚ÷Ç„2J$5c1fef41-18f9-422b-be79-d3e65e4f41d8
+v
+java:S1172®"2Remove this unused method parameter "actionEvent".(¶ú‡ó8€Û÷Ç„2J$29595019-d910-49a6-82ed-0c673a833391
+k
+java:S1125±"'Remove the unnecessary boolean literal.(°¦À¢8‚Û÷Ç„2J$011215e8-8336-4cab-a1f8-5f183eb4fc01
+„
+java:S1854À";Remove this useless assignment to local variable "execute".(Š“á¡ÿÿÿÿÿ8…Û÷Ç„2J$6c1f3864-8845-4b58-b4a3-da9fb40376f9
+{
+java:S1172¾"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8…Û÷Ç„2J$4f55578a-0517-4116-9af3-5ccaae01e4ff
+u
+java:S1481À",Remove this unused "execute" local variable.(Š“á¡ÿÿÿÿÿ8‡Û÷Ç„2J$0c8e17b2-5a6f-463a-a06f-100c582cbb94
+„	java:S125Á"<This block of commented-out lines of code should be removed.(ç®Çşÿÿÿÿ8ˆÛ÷Ç„2J$323e4ae6-e8dd-481e-9d86-19618fa00281

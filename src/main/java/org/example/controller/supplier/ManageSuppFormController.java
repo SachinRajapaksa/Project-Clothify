@@ -30,6 +30,11 @@ public class ManageSuppFormController implements Initializable {
     public JFXTextField txtEmail;
     public JFXCheckBox CBSup;
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        genarateSupID();
+    }
+
 
 
     public void btnSearchOnAction(ActionEvent actionEvent) {
@@ -87,7 +92,9 @@ public class ManageSuppFormController implements Initializable {
         booleanProperty.setValue(!booleanProperty.getValue());
         if (booleanProperty.getValue()==false) {
             genarateSupID();
+            clearText();
         }
+
     }
 
     public void genarateSupID() {
@@ -102,15 +109,15 @@ public class ManageSuppFormController implements Initializable {
             if (count == 0) {
                 txtSupplierID.setText("SUP001");
             }
-            String lastEmpId = "";
+            String lastSupID = "";
             ResultSet resultSet1 = connection.createStatement().executeQuery("SELECT SuppId\n" +
                     "FROM supplier\n" +
                     "ORDER BY SuppId DESC\n" +
                     "LIMIT 1;");
             if (resultSet1.next()) {
-                lastEmpId = resultSet1.getString(1);
+                lastSupID = resultSet1.getString(1);
                 Pattern pattern = Pattern.compile("[A-Za-z](\\d+)");
-                Matcher matcher = pattern.matcher(lastEmpId);
+                Matcher matcher = pattern.matcher(lastSupID);
                 if (matcher.find()) {
                     int num = Integer.parseInt(matcher.group(1));
                     num++;
@@ -124,10 +131,6 @@ public class ManageSuppFormController implements Initializable {
         }
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        genarateSupID();
-    }
 
     public void txtSupOnAction(ActionEvent actionEvent) {
         btnSearchOnAction(actionEvent);

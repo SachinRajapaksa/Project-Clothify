@@ -1,5 +1,7 @@
 package org.example.controller.supplier;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.example.Util.CrudUtil;
 import org.example.dto.Supplier;
 
@@ -7,24 +9,23 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 
-public class SupplierController {
+public class SupplierController implements SupplierService {
 
     private static SupplierController instance;
-    private SupplierController(){}
 
-    public static SupplierController getInstance(){
-        if (instance==null){
-            instance=new SupplierController();
+    private SupplierController() {
+    }
+
+    public static SupplierController getInstance() {
+        if (instance == null) {
+            instance = new SupplierController();
         }
         return instance;
     }
 
 
-
-
-
-    public boolean addSupplier(Supplier supplier){
-        String SQL="INSERT INTO supplier VALUES(?,?,?,?)";
+    public boolean addSupplier(Supplier supplier) {
+        String SQL = "INSERT INTO supplier VALUES(?,?,?,?)";
         try {
             CrudUtil.execute(
                     SQL,
@@ -39,10 +40,11 @@ public class SupplierController {
         }
         return false;
     }
-    public Supplier searchSupplier(String SupplierID){
+
+    public Supplier searchSupplier(String SupplierID) {
         try {
             ResultSet resultSet = CrudUtil.execute("SELECT * FROM supplier WHERE SuppId=?", SupplierID);
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 return new Supplier(
                         resultSet.getString(1),
                         resultSet.getString(2),
@@ -54,9 +56,31 @@ public class SupplierController {
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
-        Supplier supplier=null;
-        return supplier;
+        return null;
     }
 
 
+    public ObservableList<Supplier> getAllSupp() {
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT * FROM supplier");
+            ObservableList<Supplier> listSupp = FXCollections.observableArrayList();
+            while (resultSet.next()) {
+                listSupp.add(
+                        new Supplier(
+                                resultSet.getString("suppId"),
+                                resultSet.getString("suppName"),
+                                resultSet.getString("suppCompany"),
+                                resultSet.getString("supEmail")
+                        )
+                );
+            }
+
+            return listSupp;
+        } catch (SQLException | ClassNotFoundException ex) {
+            throw new RuntimeException(ex);
+        }
+
+    }
 }
+
+
