@@ -1,8 +1,8 @@
 
-	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8üÉÀ³ƒ2J$b97041a5-ac2d-49cd-bd1c-a68772d117fb
-	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8şÉÀ³ƒ2J$483c0d93-9bd4-49f6-80c1-ae61100db83b
-	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÿÉÀ³ƒ2J$23fd4895-7a78-48fb-a2c0-977bee34350f
-“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷¸•8ÊÀ³ƒ2J$fff50e8d-06c9-4cc2-8683-5a20beda019a
-˜	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰´¬óûÿÿÿÿ8ÊÀ³ƒ2J$96c84993-20eb-4285-9136-c283c594a192
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8üÉÀ³ƒ2J$0ebbfeac-2882-474b-be1f-a3c5d09243dd
+	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8şÉÀ³ƒ2J$f3e0f1ea-3f6b-402e-b3e1-6895e0d6bbd9
+	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ÿÉÀ³ƒ2J$f47c65b4-a212-47ca-896d-04b09ba38a3a
+“	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷¸•8ÊÀ³ƒ2J$195344ec-48eb-4598-9016-044687faaede
+˜	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰´¬óûÿÿÿÿ8ÊÀ³ƒ2J$dc1370aa-00f1-4fb7-8382-f7c3846d59a1
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÿÓ±şÿÿÿÿ8ªÊÀ³ƒ2J$94f0de0e-20f3-418e-aefe-d4031135dee4
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÿÓ±şÿÿÿÿ8ªÊÀ³ƒ2J$1a6031f5-bbd5-424a-b089-ec5e6c599ae9
