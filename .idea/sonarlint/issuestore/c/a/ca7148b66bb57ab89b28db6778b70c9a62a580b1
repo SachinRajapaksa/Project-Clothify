@@ -1,0 +1,7 @@
+
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(§Õñä8Ä½ Þ„2J$87d6c876-9b0d-4237-8d4a-a4e79b631d35
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÿ•»Þüÿÿÿÿ8Ý½ Þ„2J$d4a0371c-e940-4ae6-bb1a-2c0914e824c2
+É
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(é£éôøÿÿÿÿ8Ý½ Þ„2J$ae0d3343-1cb8-4a98-ba48-eac4c0d27e6d
+~	java:S125,"<This block of commented-out lines of code should be removed.(þ«ð¬8ˆ¾ Þ„2J$66b24685-de7a-4e90-ab4d-cdba6498b2fe

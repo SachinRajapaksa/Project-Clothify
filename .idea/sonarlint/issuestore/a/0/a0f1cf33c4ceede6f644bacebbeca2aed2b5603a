@@ -40,13 +40,13 @@ java:S4973v"<Strings and Boxed types should be compared using "equals()".(¢µúÌù
 …
 java:S4973Ÿ"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$06162673-c467-49a8-be9a-b566b1c1beff
 
-java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8âÿ—É„2J$648a8249-b71c-4b8a-862c-b4adef90ea97
+java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8éÚ÷Ç„2J$e578454f-0b3d-4100-b0da-f71eeffbf61c
 
 java:S2095Ì"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8éÚ÷Ç„2J$45eb2f7d-12fd-42c7-9ef7-ea7c8da7106f
-
-java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8éÚ÷Ç„2J$e578454f-0b3d-4100-b0da-f71eeffbf61c
 ‹
 java:S2095À"GUse try-with-resources or close this "Statement" in a "finally" clause.(µüß‹8éÚ÷Ç„2J$859b54c3-900c-420f-bcfe-c7fec1da310f
+
+java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8âÿ—É„2J$648a8249-b71c-4b8a-862c-b4adef90ea97
 z
 java:S11725"2Remove this unused method parameter "actionEvent".(‘¿¯µÿÿÿÿÿ8óÚ÷Ç„2J$575d8427-b21a-46dc-aa9e-2e40199e14fa
 •	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡—ü§üÿÿÿÿ8òÚ÷Ç„2J$509eee25-08b6-4f2b-b025-3762e784a856

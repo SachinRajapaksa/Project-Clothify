@@ -17,9 +17,9 @@ java:S1104"QMake CBSup a static final constant or non-public and provide acces
 j
 java:S5411]"(Use a primitive boolean expression here.(íôÓ-8¾„É„2J$afefa061-e3d0-4241-b8f5-e99719465ec4
 
-java:S2095="GUse try-with-resources or close this "Statement" in a "finally" clause.(Â—Òùÿÿÿÿ8Š…É„2J$e6e67a5f-ac7f-4f79-894e-c47180e682e3
-
 java:S2095g"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Š…É„2J$696049e5-85fc-4432-87a4-6ff2368cb88e
+
+java:S2095="GUse try-with-resources or close this "Statement" in a "finally" clause.(Â—Òùÿÿÿÿ8Š…É„2J$e6e67a5f-ac7f-4f79-894e-c47180e682e3
 ‰
 java:S2095q"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÒˆØZ8Š…É„2J$19d00d07-1b7a-4572-86a2-0ac6c72a032c
 Š
