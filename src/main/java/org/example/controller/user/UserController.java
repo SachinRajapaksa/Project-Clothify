@@ -1,8 +1,8 @@
 package org.example.controller.user;
 
-import javafx.collections.ObservableList;
+
 import org.example.Util.CrudUtil;
-import org.example.dto.Supplier;
+
 import org.example.dto.User;
 
 import java.sql.ResultSet;
@@ -54,8 +54,7 @@ public class UserController implements UserService{
     } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
     }
-        User user = null;
-        return user;
+        return null;
 
     }
 

@@ -51,10 +51,10 @@ public class ManageItemFormController implements Initializable {
     }
 
     public void txtItemCodeOnAction(ActionEvent actionEvent) {
-        btnSearchOnAction(actionEvent);
+        btnSearchOnAction();
     }
 
-    public void btnSearchOnAction(ActionEvent actionEvent) {
+    public void btnSearchOnAction() {
         Item item = ItemController.getInstance().searchItem(txtItemCode.getText());
         cmbSuppId.setValue(item.getSuppId());
         txtDescription.setText(item.getDescription());
@@ -65,7 +65,7 @@ public class ManageItemFormController implements Initializable {
 
     }
 
-    public void CBExistItemOnAction(ActionEvent actionEvent) {
+    public void CBExistItemOnAction() {
         clearText();
         BooleanProperty booleanProperty = txtItemCode.editableProperty();
         booleanProperty.setValue(!booleanProperty.getValue());
@@ -92,7 +92,7 @@ public class ManageItemFormController implements Initializable {
 
 
 
-    public void btnAddOnAction(ActionEvent actionEvent) {
+    public void btnAddOnAction() {
         if (cmbSuppId.getValue() != null && cmbSizes.getValue() != null) {
             lblSuppStatus.setText(null);
             lblSizeStatus.setText(null);
@@ -111,7 +111,7 @@ public class ManageItemFormController implements Initializable {
                 new Alert(Alert.AlertType.CONFIRMATION, "Are you sure to add " + txtDescription.getText() + " item Menu").show();
                 clearText();
                 genarateItemCode();
-                System.out.println(cmbSuppId.getValue().toString());
+
 
             }
 
@@ -130,7 +130,7 @@ public class ManageItemFormController implements Initializable {
     }
 
 
-    public void btnAddmoreSizes(ActionEvent actionEvent) {
+    public void btnAddmoreSizes() {
         if (cmbSuppId.getValue() != null && cmbSizes.getValue() != null) {
             lblSuppStatus.setText(null);
             lblSizeStatus.setText(null);
@@ -171,7 +171,7 @@ public class ManageItemFormController implements Initializable {
 
     }
 
-    public void btnRemoveOnAction(ActionEvent actionEvent) {
+    public void btnRemoveOnAction() {
         try {
             boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM item WHERE itemCode='" + txtItemCode.getText() + "'");
             if (execute == false) {
@@ -187,10 +187,10 @@ public class ManageItemFormController implements Initializable {
         }
     }
 
-    public void btnUpdateOnAction(ActionEvent actionEvent) {
+    public void btnUpdateOnAction() {
         try {
-            boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM item WHERE itemCode='" + txtItemCode.getText() + "'");
-            // btnAddOnAction(actionEvent);
+            DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM item WHERE itemCode='" + txtItemCode.getText() + "'");
+            btnAddOnAction();
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -203,7 +203,7 @@ public class ManageItemFormController implements Initializable {
             Connection connection = DBConnection.getInstance().getConnection();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM item");
-            Integer count = 0;
+            int count = 0;
             while (resultSet.next()) {
                 count = resultSet.getInt(1);
             }
