@@ -9,15 +9,12 @@ import javafx.stage.Stage;
 import org.example.controller.login.LoginController;
 import org.example.dto.User;
 import java.io.IOException;
-import java.util.Date;
+
 import java.util.Objects;
 
 public class LoginFormController {
     public TextField txtEmail;
     public TextField txtPassword;
-
-    private Stage stage;
-    private Scene scene;
 
     public void btnLoginOnAction(ActionEvent event) throws IOException {
         User user = LoginController.getInstance().findUser(txtEmail.getText(), txtPassword.getText());
@@ -29,8 +26,8 @@ public class LoginFormController {
 
         if (Objects.equals(user.getEMail(), txtEmail.getText()) && Objects.equals(user.getPassword(), txtPassword.getText())) {
             Parent root = FXMLLoader.load(Main.class.getResource("view/dashboard-form.fxml"));
-            stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            scene = new Scene(root);
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Scene scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
 

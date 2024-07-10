@@ -3,29 +3,17 @@ package org.example.controller.employee;
 import com.jfoenix.controls.JFXCheckBox;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
-import com.sun.tools.javac.Main;
+
 import javafx.beans.property.BooleanProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
-import javafx.event.EventType;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import javafx.stage.Window;
-import javafx.stage.WindowEvent;
-import org.example.controller.employee.EmployeeController;
-import org.example.controller.login.LoginController;
 import org.example.db.DBConnection;
 import org.example.dto.User;
-import org.modelmapper.internal.bytebuddy.asm.Advice;
-
-import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -48,8 +36,7 @@ public class ManageEmployeeFormController implements Initializable {
     public JFXComboBox cmbAccType;
 
     public JFXCheckBox CBAcc;
-    private Stage stage;
-    private Scene scene;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -59,12 +46,12 @@ public class ManageEmployeeFormController implements Initializable {
 
     }
 
-    public void txtEmpOnAction(ActionEvent actionEvent) {
-        btnSearchOnAction(actionEvent);
+    public void txtEmpOnAction() {
+        btnSearchOnAction();
     }
 
 
-    public void btnSearchOnAction(ActionEvent actionEvent) {
+    public void btnSearchOnAction() {
         User user = EmployeeController.getInstance().searchUser(txtEmpID.getText());
         txtFirstName.setText(user.getFirstName());
         txtLastName.setText(user.getLastName());
@@ -76,10 +63,10 @@ public class ManageEmployeeFormController implements Initializable {
 
 
 
-    public void btnRemoveOnAction(ActionEvent actionEvent) {
+    public void btnRemoveOnAction() {
         try {
             boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM user WHERE empId='" + txtEmpID.getText() + "'");
-            System.out.println(execute);
+
             if(execute==false)
                 new Alert(Alert.AlertType.CONFIRMATION, "Are You Sure To Delete Employee" + "  " + txtFirstName.getText()).show();
                 clearText();
@@ -90,12 +77,12 @@ public class ManageEmployeeFormController implements Initializable {
         }
     }
 
-    public void btnUpdateOnAction(ActionEvent actionEvent) {
+    public void btnUpdateOnAction() {
        try {
-                boolean execute = DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM user WHERE empId='" + txtEmpID.getText() + "'");
+           DBConnection.getInstance().getConnection().createStatement().execute("DELETE FROM user WHERE empId='" + txtEmpID.getText() + "'");
 
            try {
-               btnAddOnAction(actionEvent);
+               btnAddOnAction();
            } catch (ParseException e) {
                throw new RuntimeException(e);
            }
@@ -107,7 +94,7 @@ public class ManageEmployeeFormController implements Initializable {
     }
 
 
-    public void btnAddOnAction(ActionEvent actionEvent) throws ParseException {
+    public void btnAddOnAction() throws ParseException {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
         Date date=format.parse(dateDOB.getValue().toString());
 
@@ -121,7 +108,7 @@ public class ManageEmployeeFormController implements Initializable {
                 cmbAccType.getValue().toString()
         );
         boolean b = EmployeeController.getInstance().addUser(user);
-        if(b==false){
+        if(!b){
             new Alert(Alert.AlertType.CONFIRMATION,"Are You Sure To Add Employee" + "  " + txtFirstName.getText()).show();
             clearText();
             genarateEmpID();

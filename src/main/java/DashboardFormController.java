@@ -1,20 +1,15 @@
-import javafx.event.ActionEvent;
+
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import lombok.Getter;
-import org.example.controller.employee.EmployeeController;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.Timer;
-import java.util.TimerTask;
+
 
 @Getter
 
@@ -65,8 +60,7 @@ public class DashboardFormController implements Initializable {
     public  void setLabels (){
         txtUsername.setText(username);
         txtUserType.setText(acctype);
-        System.out.println(username);
-        System.out.println(acctype);
+
 
     }
 
