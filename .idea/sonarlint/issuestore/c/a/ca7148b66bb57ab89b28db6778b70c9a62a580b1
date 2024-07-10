@@ -1,8 +1,30 @@
 
-ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(§Õñä8ÀéÉŞ„2J$027a45d0-4b2c-4f05-8e6c-a6af13f7c6ef
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(§Õñä8‚¬¤Ø‰2J$8b267506-c79b-4bb4-9b85-267aceb0802c
+œ
+java:S1104"TMake username a static final constant or non-public and provide accessors if needed.(ÙÌµşÿÿÿÿ8…¬¤Ø‰2J$6b5d2f36-3d06-4ea0-a1dd-67d475b128c5
+•
+java:S1104"SMake acctype a static final constant or non-public and provide accessors if needed.(áƒún8†¬¤Ø‰2J$3d84c61c-0501-4db3-9ede-d41b92127f3f
+Ÿ
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ªı©Ïûÿÿÿÿ8†¬¤Ø‰2J$f6291581-695b-45c0-9e82-3c6483360b26
+š
+java:S1104"WMake txtUserType a static final constant or non-public and provide accessors if needed.(ıèÍ•8†¬¤Ø‰2J$c50274cc-2bab-45db-a096-42e53bbdc92d
+v
+java:S1444".Make this "public static username" field final(ÙÌµşÿÿÿÿ8‡¬¤Ø‰2J$58e5e36f-8c41-4769-a6a1-e50e5c85db2b
+o
+java:S1444"-Make this "public static acctype" field final(áƒún8ˆ¬¤Ø‰2J$ad834b41-b1ca-4e2d-9472-0d0cfee69f5f
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Şäâ½üÿÿÿÿ8×éÉŞ„2J$dc4350da-1e59-4091-ab10-aa58635b5f83
-Ä
-java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶åâ‚8ØéÉŞ„2J$939bf12b-cf4c-4ac1-bd8b-b947a9afcd9a
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Şäâ½üÿÿÿÿ8Ä¬¤Ø‰2J$ff24f64c-0d2f-4d60-8625-a383f64f8660
+r	java:S106D"+Replace this use of System.out by a logger.(­ ‘ˆüÿÿÿÿ8î¬¤Ø‰2J$9d5b5967-4ee7-4dbc-bcab-7fcf6d05de55
+r	java:S106E"+Replace this use of System.out by a logger.(£ĞÕÿÿÿÿÿ8ï¬¤Ø‰2J$e3c1ac24-6e7f-4599-9d9c-00bfda381242
 }
-java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8ûéÉŞ„2J$b57c825c-1aa7-44e5-ad5d-2a7ee16ba532
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8§ÒÆØ‰2J$197b4217-5dad-4ea0-ab2b-e23bc7dd69dc
+y
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8§ÒÆØ‰2J$20aca63c-c820-4248-8ae8-6aef8fcdbc89
+
+java:S1128"<Remove this unused import 'javafx.scene.control.ButtonType'.(úêÿ»8§ÒÆØ‰2J$f4082833-d8cd-4cf6-983f-ee63e9f6527b
+’
+java:S1128"ORemove this unused import 'org.example.controller.employee.EmployeeController'.(”°ì›8§ÒÆØ‰2J$4246045f-9aca-4880-98cd-0707d8cbff89
+t
+java:S1128",Remove this unused import 'java.util.Timer'.(†£ñáÿÿÿÿÿ8¨ÒÆØ‰2J$fee44072-ee00-4b14-bf24-f235886c5cf9
+s
+java:S1128"0Remove this unused import 'java.util.TimerTask'.(àÀÇÙ8¨ÒÆØ‰2J$d48d4d21-4ac3-4cda-8933-a53ae6b14983

@@ -74,5 +74,10 @@
          </font>
       </JFXButton>
       <JFXCheckBox fx:id="CBAcc" layoutX="272.0" layoutY="61.0" onAction="#CBExistAccountOnAction" text="Exist Account" />
+      <Button layoutX="379.0" layoutY="51.0" mnemonicParsing="false" onAction="#btnCloseOnAction" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: #FFFFFF;" text="X" textFill="RED">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

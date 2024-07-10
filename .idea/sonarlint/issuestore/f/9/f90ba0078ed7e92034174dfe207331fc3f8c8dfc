@@ -1,70 +1,84 @@
 
-	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8³ığØ„2J$2aba589d-db04-42ec-abb1-017edfe92087
-	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ığØ„2J$9009019b-8b99-4fbe-bac5-49e775e4867d
-	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ığØ„2J$445ff56a-ee06-41dd-bcba-064d5dcac210
-	java:S112¡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´ığØ„2J$a340fcfc-6adf-4746-9c80-4ac6f73fa2b3
+	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8À¿×«‰2J$d2c07c8f-a521-4411-aacd-2b4733c251a7
+	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â¿×«‰2J$3af892c1-d7dc-422f-a580-20a601f8c7b8
+	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Â¿×«‰2J$a932ede9-e7f2-4cc6-825e-1bf0b84940f8
+	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ã¿×«‰2J$e90a0e91-afc3-4cd9-b8a0-ad3cd83e2a25
 r
-java:S3740("/Provide the parametrized type for this generic.(ƒ¦ùŠ8µığØ„2J$828bae23-0b5c-4c76-a168-e32cf91f2473
+java:S37400"/Provide the parametrized type for this generic.(ƒ¦ùŠ8Å¿×«‰2J$d9d4d32a-a647-4d92-8a3d-9500684f6f7c
 }
-java:S1141P"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¸ığØ„2J$e5dabec3-d48a-4e97-baf1-c91502cba584
+java:S1141a"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ê¿×«‰2J$eeabc836-bf07-41f2-a7e3-0146f788de05
 —
-java:S1104""TMake txtEmpID a static final constant or non-public and provide accessors if needed.(¯‰ëú8¹ığØ„2J$ce32afc7-2ec1-413c-90e7-9fd7908f782a
+java:S1104*"TMake txtEmpID a static final constant or non-public and provide accessors if needed.(¯‰ëú8Í¿×«‰2J$8f01ae14-0206-4f51-b65a-1643cebe78e0
 ›
-java:S1104#"XMake txtFirstName a static final constant or non-public and provide accessors if needed.(µõÄú8ºığØ„2J$d8b20e20-1243-46a9-ab55-116aa8620e30
+java:S1104+"XMake txtFirstName a static final constant or non-public and provide accessors if needed.(µõÄú8Î¿×«‰2J$043e3ca0-4c15-43cb-8e9b-a42e4240aba7
 š
-java:S1104$"WMake txtLastName a static final constant or non-public and provide accessors if needed.(ÁŠÂ 8ºığØ„2J$347b56e2-31f8-4ca9-aa87-fe3039fcf9b2
+java:S1104,"WMake txtLastName a static final constant or non-public and provide accessors if needed.(ÁŠÂ 8Î¿×«‰2J$ccb97385-12f3-45fb-9dbb-4b3b164ab62d
 ›
-java:S1104%"SMake dateDOB a static final constant or non-public and provide accessors if needed.(ÍÁÕıÿÿÿÿ8ºığØ„2J$6aefbb09-c1ec-4f2e-89b6-061a72c01829
+java:S1104-"SMake dateDOB a static final constant or non-public and provide accessors if needed.(ÍÁÕıÿÿÿÿ8Î¿×«‰2J$212fe6f2-dfd0-46eb-a6c5-250e3fd922ce
 œ
-java:S1104&"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8ºığØ„2J$12d69ed6-1176-4a92-9095-ed9b863127c0
+java:S1104."TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8Ï¿×«‰2J$6bd7966e-b556-4452-b0b9-c12d13662c4f
 Ÿ
-java:S1104'"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8ºığØ„2J$addd60a0-0ed8-42e6-9f6d-9d0140445b71
+java:S1104/"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¬ä©Óÿÿÿÿÿ8Ï¿×«‰2J$195e804c-f10e-4abe-9f19-ca25769a6059
 ™
-java:S1104("VMake cmbAccType a static final constant or non-public and provide accessors if needed.(ƒ¦ùŠ8ºığØ„2J$185b6d1e-7eef-4a08-ad03-222db9004618
+java:S11040"VMake cmbAccType a static final constant or non-public and provide accessors if needed.(ƒ¦ùŠ8Ï¿×«‰2J$0347cfed-f628-4cfa-9673-b838678b57f5
 ”
-java:S1104*"QMake CBAcc a static final constant or non-public and provide accessors if needed.(¤Í‹¼8ºığØ„2J$563d03ca-6ea6-4197-af5a-578fa4afdad6
+java:S11042"QMake CBAcc a static final constant or non-public and provide accessors if needed.(¤Í‹¼8Ğ¿×«‰2J$54dbeb38-2ea9-462e-bcae-78c29381abaa
 k
-java:S5411¨"(Use a primitive boolean expression here.(íôÓ-8¼ığØ„2J$5c510449-6eeb-44f9-a69a-5ea04f395cb9
+java:S5411³"(Use a primitive boolean expression here.(íôÓ-8Ó¿×«‰2J$a38bb884-7856-4a01-b7ea-235b0ff214b4
 Ï
-java:S2681D"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ø“¢ãûÿÿÿÿ8¿ığØ„2J$f88c2cb8-54e6-4ac7-89fd-c63c2f90a7c3
-
-java:S2095†"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¿şğØ„2J$e8a0b82d-f055-4be1-b9eb-8abc062d95ad
+java:S2681U"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ø“¢ãûÿÿÿÿ8Ù¿×«‰2J$cef0681e-6d5a-4527-a625-a73c43c928dc
 ‹
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïí–¬8¿şğØ„2J$9b757736-c3ab-43a8-84f9-135bdfd72cda
+java:S2095›"GUse try-with-resources or close this "Statement" in a "finally" clause.(ïí–¬8—Á×«‰2J$9b66c4da-69af-4025-8e57-aacedf40982d
+
+java:S2095‘"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8˜Á×«‰2J$608b6315-be51-43d1-a7ce-35a201f2dbdb
 
-java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8¿şğØ„2J$74846c1e-cb80-4177-8d07-811ea2519e67
+java:S2095Q"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8—Á×«‰2J$29a744b0-b4c5-4621-8951-faaa64d5b82d
 
-java:S2095@"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8¿şğØ„2J$91f2f9b8-1f5a-49f0-9229-9cc5ccf94aad
-’	java:S116*"PRename this field "CBAcc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Í‹¼8ÁşğØ„2J$1d5528c4-68ba-4c3e-9f5f-f7ebdbab2b56
+java:S2095_"GUse try-with-resources or close this "Statement" in a "finally" clause.( ºğ€ıÿÿÿÿ8–Á×«‰2J$330e12db-e3ff-484b-8e49-aa4dbc82c92a
+’	java:S1162"PRename this field "CBAcc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Í‹¼8›Á×«‰2J$aff2e37e-85a6-40e3-8e08-53470b5bbec6
+Ê
+java:S1186À"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…ŒÛşúÿÿÿÿ8åäî«‰2J$0355fd4c-cb5b-4f08-acfe-0103729d2b42
 u
-java:S11722"2Remove this unused method parameter "actionEvent".(áÄ´ü8ÆşğØ„2J$5eb01d24-b9d4-4f6e-ab8f-f18acd1e053a
+java:S1172C"2Remove this unused method parameter "actionEvent".(áÄ´ü8©Á×«‰2J$78d30c0f-36cd-4f3e-b775-cf21c4d72e49
 u
-java:S1172>"2Remove this unused method parameter "actionEvent".(¶ú‡ó8ÉşğØ„2J$18a190c4-33ba-4b62-9902-fdecc8226355
-m	java:S106A"+Replace this use of System.out by a logger.(ÀÚğ×8ÌşğØ„2J$0360387b-24e4-4ea0-938d-0fd95c460c78
+java:S1172O"2Remove this unused method parameter "actionEvent".(¶ú‡ó8²Á×«‰2J$eb012c08-8cc2-4061-991b-8c88d4a4ed74
+m	java:S106R"+Replace this use of System.out by a logger.(ÀÚğ×8¹Á×«‰2J$036d0a97-ab03-429a-a00b-6d763019e0c6
 j
-java:S1125B"'Remove the unnecessary boolean literal.(î×ğª8ÍşğØ„2J$08af2ed3-5264-4cc6-9a38-0567905f5743
+java:S1125S"'Remove the unnecessary boolean literal.(î×ğª8»Á×«‰2J$9fcd0a97-bd0e-4197-9a85-2dec62a0da9e
 ƒ
-java:S1854N";Remove this useless assignment to local variable "execute".( ºğ€ıÿÿÿÿ8ÑşğØ„2J$ae7ab953-1b89-4342-83d2-5da9e24f6791
+java:S1854_";Remove this useless assignment to local variable "execute".( ºğ€ıÿÿÿÿ8ÁÁ×«‰2J$ddceb487-d769-4527-b705-39f5c2b303a7
 t
-java:S1481N",Remove this unused "execute" local variable.( ºğ€ıÿÿÿÿ8ÓşğØ„2J$ca0e408e-2111-4ebd-ad00-4ca81b04f11d
+java:S1481_",Remove this unused "execute" local variable.( ºğ€ıÿÿÿÿ8ÅÁ×«‰2J$98b18593-515c-48c0-8092-1efa96f1de98
 t
-java:S1172]"2Remove this unused method parameter "actionEvent".(š¯.8ÔşğØ„2J$2b4b52df-d613-473e-a25a-0d019c212214
+java:S1172n"2Remove this unused method parameter "actionEvent".(š¯.8ÈÁ×«‰2J$4a42c6ea-9a97-4e93-b9f8-4bdd2099ff4b
 o
-java:S1125k"'Remove the unnecessary boolean literal.(¨Ú¬°ûÿÿÿÿ8ØşğØ„2J$85d96054-7b18-4bfa-8c7e-2eb135af2d51
-–	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëáû’üÿÿÿÿ8äşğØ„2J$d9163c46-dbe1-49f0-9e9d-2f019b71db31
+java:S1125|"'Remove the unnecessary boolean literal.(¨Ú¬°ûÿÿÿÿ8ÑÁ×«‰2J$d5f10620-2686-499d-b446-54582e58a546
+–	java:S100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëáû’üÿÿÿÿ8ìÁ×«‰2J$a650afdb-3309-466a-87d8-0bb6b802ba5d
 {
-java:S1172¥"2Remove this unused method parameter "actionEvent".(Ëáû’üÿÿÿÿ8äşğØ„2J$b57a2d1b-91e8-4b45-94a9-7cced0a62c5d
+java:S1172°"2Remove this unused method parameter "actionEvent".(Ëáû’üÿÿÿÿ8íÁ×«‰2J$aa4c481a-1f43-4c63-a626-b9717d65400d
 j
-java:S1125¨"'Remove the unnecessary boolean literal.(íôÓ-8åşğØ„2J$ece9391c-1666-43a1-b1a4-fe38013a5a05
-W
-java:S1128"5Remove this unused import 'com.sun.tools.javac.Main'.( ƒ™şüÿÿÿÿ8ĞÙ„2
-U
-java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8ĞÙ„2
-L
-java:S1128"/Remove this unused import 'javafx.scene.Scene'.(Õü²8ĞÙ„2
-R
-java:S1128"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç8ŸĞÙ„2
-Q
-java:S1128"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8ŸĞÙ„2
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ŸĞÙ„2
+java:S1125³"'Remove the unnecessary boolean literal.(íôÓ-8ğÁ×«‰2J$511ee473-b140-41c5-85db-0002e1c3da7f
+}
+java:S1128"5Remove this unused import 'com.sun.tools.javac.Main'.( ƒ™şüÿÿÿÿ8¥œï¬‰2J$86d22bdf-8a98-4137-b6f2-753bd0680256
+{
+java:S1128"3Remove this unused import 'javafx.event.EventType'.(—ŠÆıÿÿÿÿ8¦œï¬‰2J$4719e0aa-1ec7-4f82-afc2-a65478d5906f
+{
+java:S1128"3Remove this unused import 'javafx.fxml.FXMLLoader'.(À‡ô³úÿÿÿÿ8¦œï¬‰2J$19191023-f999-46ba-be89-51b5976075c6
+q
+java:S1128".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï8¦œï¬‰2J$7a71a84f-8a24-451e-99a8-7f017444e358
+s
+java:S1128"0Remove this unused import 'javafx.scene.Parent'.(²ä¡È8¦œï¬‰2J$4dbd1aac-c605-430e-ab2f-1eb3c9af00ee
+x
+java:S1128"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç8§œï¬‰2J$55accb12-0fec-4e24-adb1-847c2ffbe6fa
+x
+java:S1128"0Remove this unused import 'javafx.stage.Window'.(Ñ€Ş‡øÿÿÿÿ8¨œï¬‰2J$9988c120-e4ba-4dc4-ba3e-0c04c3aa560c
+w
+java:S1128"5Remove this unused import 'javafx.stage.WindowEvent'.(‚ƒ×r8¨œï¬‰2J$3d374f34-7a79-415d-b166-1801782e925a
+—
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(”°ì›8¨œï¬‰2J$be576f91-2506-4ec6-b98b-b259bfb297d9
+‹
+java:S1128"IRemove this unused import 'org.example.controller.login.LoginController'.(˜£´Y8¨œï¬‰2J$cf1c49c9-d4d0-419a-8230-efd080165eeb
+
+java:S1128"JRemove this unused import 'org.modelmapper.internal.bytebuddy.asm.Advice'.(ÿƒ“°8©œï¬‰2J$ab31dfd1-2078-441d-b4cf-35f97fc5fa87
+x
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8©œï¬‰2J$0b8c41b3-fbfa-4f5d-88cb-e6672f0787ce

@@ -8,14 +8,22 @@ import javafx.beans.property.BooleanProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventType;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import javafx.stage.Window;
+import javafx.stage.WindowEvent;
+import org.example.controller.employee.EmployeeController;
+import org.example.controller.login.LoginController;
 import org.example.db.DBConnection;
 import org.example.dto.User;
+import org.modelmapper.internal.bytebuddy.asm.Advice;
 
 import java.io.IOException;
 import java.net.URL;
@@ -40,7 +48,16 @@ public class ManageEmployeeFormController implements Initializable {
     public JFXComboBox cmbAccType;
 
     public JFXCheckBox CBAcc;
+    private Stage stage;
+    private Scene scene;
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        loadDropMenu();
+        genarateEmpID();
+
+
+    }
 
     public void txtEmpOnAction(ActionEvent actionEvent) {
         btnSearchOnAction(actionEvent);
@@ -121,13 +138,7 @@ public class ManageEmployeeFormController implements Initializable {
         cmbAccType.setItems(items);
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        loadDropMenu();
-        genarateEmpID();
 
-
-    }
     public void genarateEmpID() {
         try {
             Connection connection = DBConnection.getInstance().getConnection();
@@ -178,4 +189,8 @@ public class ManageEmployeeFormController implements Initializable {
         cmbAccType.setItems(cmbAccType.getItems());
     }
 
-}
+    public void btnCloseOnAction() {
+
+    }
+    }
+
