@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="484.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.front.FrontSystemFormController">
+   <TextField fx:id="txtItemCode" layoutX="9.0" layoutY="217.0" onAction="#txtItemCodeOnAction" prefHeight="25.0" prefWidth="60.0" />
+   <Label layoutX="11.0" layoutY="80.0" text="Login User :-" />
+   <Label fx:id="lblLoginUser" layoutX="79.0" layoutY="80.0" prefHeight="17.0" prefWidth="150.0">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+   <Label layoutX="237.0" layoutY="81.0" text="Date" />
+   <Label fx:id="lblDate" layoutX="277.0" layoutY="81.0" prefHeight="17.0" prefWidth="85.0">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></Label>
+   <Label layoutX="465.0" layoutY="82.0" text="Invoice Number" />
+   <Label fx:id="lblInvoice" layoutX="556.0" layoutY="82.0" prefHeight="17.0" prefWidth="125.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#727272" height="70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="850.0" />
+   <Label layoutX="212.0" layoutY="11.0" prefHeight="49.0" prefWidth="426.0" text="Clothify Store POS System" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="33.0" />
+      </font>
+   </Label>
+   <JFXButton alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="20.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnSearchOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Search" textAlignment="CENTER" />
+   <JFXButton alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="100.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnItemOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Item" textAlignment="CENTER" />
+   <JFXButton fx:id="btnSave" alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="180.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnSaveOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Save" textAlignment="CENTER" />
+   <JFXButton alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="260.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnPrintOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Print" textAlignment="CENTER" />
+   <JFXButton alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="340.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnCancelOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Cancel" textAlignment="CENTER" />
+   <Label fx:id="lblTotal" alignment="CENTER_RIGHT" layoutX="556.0" layoutY="136.0" prefHeight="49.0" prefWidth="262.0" style="-fx-border-color: #000000;" text="0.00" textAlignment="RIGHT" textFill="RED">
+      <font>
+         <Font name="Arial" size="31.0" />
+      </font></Label>
+   <TextField fx:id="txtItemDesc" editable="false" layoutX="80.0" layoutY="217.0" prefHeight="25.0" prefWidth="385.0" />
+   <TextField fx:id="txtSize" editable="false" layoutX="478.0" layoutY="217.0" prefHeight="25.0" prefWidth="33.0" />
+   <TextField fx:id="txtStock" editable="false" layoutX="523.0" layoutY="217.0" prefHeight="25.0" prefWidth="85.0" />
+   <TextField fx:id="txtQTY" layoutX="631.0" layoutY="217.0" onAction="#txtQTYOnAction" prefHeight="25.0" prefWidth="33.0" />
+   <TextField fx:id="txtUnitPrice" editable="false" layoutX="679.0" layoutY="218.0" prefHeight="25.0" prefWidth="60.0" />
+   <TextField fx:id="txtLineTotal" editable="false" layoutX="751.0" layoutY="218.0" onAction="#txtTotalLineOnAction" prefHeight="25.0" prefWidth="68.0" />
+   <Label layoutX="11.0" layoutY="195.0" text="Item Code" />
+   <Label layoutX="251.0" layoutY="197.0" text="Item Description" />
+   <Label layoutX="483.0" layoutY="197.0" text="Size" />
+   <Label layoutX="528.0" layoutY="197.0" text="Stock In Hand" />
+   <Label layoutX="635.0" layoutY="197.0" text="QTY" />
+   <Label layoutX="682.0" layoutY="197.0" text="Unit Price" />
+   <Label layoutX="772.0" layoutY="197.0" text="Total" />
+   <Separator layoutX="634.0" layoutY="249.0" orientation="VERTICAL" prefHeight="234.0" prefWidth="1.0" />
+   <ComboBox fx:id="cmbPayType" layoutX="645.0" layoutY="256.0" prefHeight="25.0" prefWidth="88.0" />
+   <TextField fx:id="txtTotal" layoutX="738.0" layoutY="256.0" onAction="#txtTotalOnAction" prefHeight="25.0" prefWidth="97.0" />
+   <Label layoutX="646.0" layoutY="304.0" text="Bill Value">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="lblBillVal" alignment="CENTER_RIGHT" layoutX="741.0" layoutY="304.0" prefHeight="20.0" prefWidth="97.0" text="0.00">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="646.0" layoutY="337.0" text="Recived Value">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="lblReciveVal" alignment="CENTER_RIGHT" layoutX="741.0" layoutY="337.0" prefHeight="20.0" prefWidth="97.0" text="0.00">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label layoutX="646.0" layoutY="366.0" text="Balance Value">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <Label fx:id="lblBalanceVal" alignment="CENTER_RIGHT" layoutX="742.0" layoutY="366.0" prefHeight="20.0" prefWidth="97.0" text="0.00">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Label>
+   <JFXButton fx:id="btnEnd" alignment="CENTER" buttonType="RAISED" layoutX="650.0" layoutY="410.0" lineSpacing="1.0" onAction="#btnEndBillOnAction" prefHeight="60.0" prefWidth="185.0" ripplerFill="#359708" style="-fx-border-color: #000000;" text="END BILL" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="25.0" />
+      </font>
+   </JFXButton>
+   <TableView fx:id="tblOrder" layoutX="5.0" layoutY="258.0" prefHeight="221.0" prefWidth="625.0">
+      <columns>
+         <TableColumn fx:id="colNo" prefWidth="33.0" text="NO" />
+         <TableColumn fx:id="colItemCode" prefWidth="72.0" text="Item Code" />
+         <TableColumn fx:id="colItemDesc" prefWidth="373.0" text="Item Description" />
+         <TableColumn fx:id="colSize" prefWidth="38.0" text="Size" />
+         <TableColumn fx:id="colQty" prefWidth="37.0" text="Qty" />
+         <TableColumn fx:id="colTotal" prefWidth="70.0" text="Total" />
+      </columns>
+   </TableView>
+   <Label fx:id="lblTime" layoutX="350.0" layoutY="81.0" prefHeight="17.0" prefWidth="87.0">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Label>
+   <JFXButton alignment="BOTTOM_CENTER" buttonType="RAISED" layoutX="420.0" layoutY="125.0" lineSpacing="1.0" onAction="#btnHomeOnAction" prefHeight="60.0" prefWidth="60.0" style="-fx-border-color: #000000;" text="Home" textAlignment="CENTER" />
+   <JFXButton layoutX="485.0" layoutY="161.0" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="68.0" text="Delete " />
+</AnchorPane>

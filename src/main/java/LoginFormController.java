@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.example.controller.front.FrontSystemFormController;
 import org.example.controller.login.LoginController;
 import org.example.dto.User;
 import java.io.IOException;
@@ -33,6 +34,7 @@ public class LoginFormController {
 
             DashboardFormController.acctype=user.getAccType();
             DashboardFormController.username=user.getEMail();
+            FrontSystemFormController.username=user.getFirstName();
         }
 
     }

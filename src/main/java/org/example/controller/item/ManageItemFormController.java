@@ -46,6 +46,7 @@ public class ManageItemFormController implements Initializable {
         dropMenuSize();
         dropMenuSuppID();
 
+
         cmbSuppId.getSelectionModel().selectedItemProperty().addListener(((observable, oldValue, newValue) ->
                 setCompanyForTxt((String) newValue)));
     }

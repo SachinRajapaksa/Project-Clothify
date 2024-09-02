@@ -1,16 +1,16 @@
 
-ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(§Õñä8‚¬¤Ø‰2J$5b3176c6-b4c4-4916-8e1e-b5aaa427c530
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(§Õñä8ò›ğ2J$4ef17e62-0dd4-4b97-8691-f10d1c4710b0
 œ
-java:S1104"TMake username a static final constant or non-public and provide accessors if needed.(ÙÌµşÿÿÿÿ8…¬¤Ø‰2J$1e453708-ef81-4ee6-88f2-93521540acde
+java:S1104"TMake username a static final constant or non-public and provide accessors if needed.(ÙÌµşÿÿÿÿ8ô›ğ2J$ae7a5d99-dbf6-44dd-ba53-5f8f63c5e85a
 •
-java:S1104"SMake acctype a static final constant or non-public and provide accessors if needed.(áƒún8†¬¤Ø‰2J$4bf1ea6e-4f68-4deb-91ae-855cf57a22df
+java:S1104"SMake acctype a static final constant or non-public and provide accessors if needed.(áƒún8ô›ğ2J$00a2f198-4652-4c61-964b-ad9e521f9ec2
 Ÿ
-java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ªı©Ïûÿÿÿÿ8†¬¤Ø‰2J$6f83e1e0-bf6d-4c59-9c58-2552f034e51b
+java:S1104"WMake txtUsername a static final constant or non-public and provide accessors if needed.(ªı©Ïûÿÿÿÿ8ô›ğ2J$91b86d28-4337-4083-b5cc-030d964f31dd
 š
-java:S1104"WMake txtUserType a static final constant or non-public and provide accessors if needed.(ıèÍ•8†¬¤Ø‰2J$832c6d9e-4094-4740-8f4a-5c7751cc6301
+java:S1104"WMake txtUserType a static final constant or non-public and provide accessors if needed.(ıèÍ•8ô›ğ2J$0dd00307-cca3-4281-9d39-9de690e12151
 v
-java:S1444".Make this "public static username" field final(ÙÌµşÿÿÿÿ8‡¬¤Ø‰2J$5d61d262-d451-46dd-ad65-1edf06e6a9b8
+java:S1444".Make this "public static username" field final(ÙÌµşÿÿÿÿ8õ›ğ2J$2c0bf949-c2c4-4a4d-b2b1-bb5445a573ba
 o
-java:S1444"-Make this "public static acctype" field final(áƒún8ˆ¬¤Ø‰2J$8653d218-6811-4ef4-b2c7-95aff69499ab
-É
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Şäâ½üÿÿÿÿ8Ä¬¤Ø‰2J$a22f6429-485e-466d-b97a-ac207f4f904f
+java:S1444"-Make this "public static acctype" field final(áƒún8õ›ğ2J$91614967-2b98-4130-8715-93dab29b2604
+o
+java:S1481=",Remove this unused "keyText" local variable.(¦ê¯Ã8Šêú¡›2J$67345619-0564-4a8d-887b-1360bbde8ea8

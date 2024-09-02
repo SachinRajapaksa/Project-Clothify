@@ -1,56 +1,56 @@
 
-	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŒÚ÷Ç„2J$4c353776-e669-45ca-b0b9-7b9b33f534f5
-	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$128d7eec-3b84-4d17-a0d1-c95488855838
-	java:S112ç"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$ff5a7de7-8b52-4bdf-b500-59b3f533618f
+	java:S112»"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŒÚ÷Ç„2J$969e4c73-3c91-4549-b587-018d3d939d39
+	java:S112Ä"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$59d4ef2e-d093-4db3-b7ba-1b08dd2b4c41
+	java:S112è"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú÷Ç„2J$112ddaff-ce2f-4419-bc04-a1967f9ee0fd
 w
-java:S3740 "/Provide the parametrized type for this generic.(´å¯Ğıÿÿÿÿ8Ú÷Ç„2J$f1c53bd2-f99d-4258-b2c4-50f7d69b5178
+java:S3740 "/Provide the parametrized type for this generic.(´å¯Ğıÿÿÿÿ8Ú÷Ç„2J$0c3c1eb7-e85e-4bc7-865d-645d1db9261b
 r
-java:S3740$"/Provide the parametrized type for this generic.(ĞÇÀ8Ú÷Ç„2J$9e34af1f-6549-4253-9215-37da3b15ef91
+java:S3740$"/Provide the parametrized type for this generic.(ĞÇÀ8Ú÷Ç„2J$3e211f25-6366-4ce1-b346-74ecb993db5c
 ™
-java:S1192v"QDefine a constant instead of duplicating this literal "Supplier Company" 4 times.(¢µúÌùÿÿÿÿ8Ú÷Ç„2J$2a1e9f97-026a-4a4b-8b12-cd821a2f8c2c
+java:S1192w"QDefine a constant instead of duplicating this literal "Supplier Company" 4 times.(¢µúÌùÿÿÿÿ8Ú÷Ç„2J$c34d2c56-552f-48d6-8be3-abaa90cbebf8
 “
-java:S1192x"PDefine a constant instead of duplicating this literal "Select Supplier" 4 times.(²ùì8Ú÷Ç„2J$d636de1b-e091-4c3a-b800-82528820e022
+java:S1192y"PDefine a constant instead of duplicating this literal "Select Supplier" 4 times.(²ùì8Ú÷Ç„2J$2d4a4b77-402a-4586-a4ad-71c7f927faf2
 
-java:S1192{"LDefine a constant instead of duplicating this literal "Select Size" 4 times.(×ò±e8Ú÷Ç„2J$a341847c-1c02-4cc0-bff9-ca7bc673e301
-™	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¬Ôüÿÿÿÿ8‘Ú÷Ç„2J$33bbce67-f45f-4c46-a9b1-7b0a9260a3a7
+java:S1192|"LDefine a constant instead of duplicating this literal "Select Size" 4 times.(×ò±e8Ú÷Ç„2J$159ae446-c47b-447e-8d2b-6a2d18645dcc
+™	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¬Ôüÿÿÿÿ8‘Ú÷Ç„2J$46921984-1dcb-45a2-93c5-6c16c4b0fddc
 Ÿ
-java:S1104"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(Ê—›¶üÿÿÿÿ8’Ú÷Ç„2J$27a34078-f91e-400e-9009-30fdfc25d890
+java:S1104"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(Ê—›¶üÿÿÿÿ8’Ú÷Ç„2J$6db4e557-a09c-413a-8b04-89e34732e250
 
-java:S1104 "UMake cmbSuppId a static final constant or non-public and provide accessors if needed.(´å¯Ğıÿÿÿÿ8’Ú÷Ç„2J$d3f2d491-4970-4c3e-b7a7-d413ed0079cf
+java:S1104 "UMake cmbSuppId a static final constant or non-public and provide accessors if needed.(´å¯Ğıÿÿÿÿ8’Ú÷Ç„2J$a9134ee3-abef-4522-aecb-bce73fe3e4cd
 ¦
-java:S1104!"^Make txtSupplierCompany a static final constant or non-public and provide accessors if needed.(è¬øÿÿÿÿ8’Ú÷Ç„2J$0f28e0d9-3822-4b06-8071-f6e0a1dd065a
+java:S1104!"^Make txtSupplierCompany a static final constant or non-public and provide accessors if needed.(è¬øÿÿÿÿ8’Ú÷Ç„2J$7e731804-dbec-4fa5-b691-cb885ed40387
 Ÿ
-java:S1104""WMake cbExistItem a static final constant or non-public and provide accessors if needed.(“Î¿°øÿÿÿÿ8’Ú÷Ç„2J$586719cb-03a7-48e4-953f-92e2da1e04f1
+java:S1104""WMake cbExistItem a static final constant or non-public and provide accessors if needed.(“Î¿°øÿÿÿÿ8’Ú÷Ç„2J$756f0c2a-68e1-4a5f-8eef-59b58f115a81
 ¢
-java:S1104#"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8’Ú÷Ç„2J$3eeb089e-ce11-4428-8315-ad5046cbb2b8
+java:S1104#"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8’Ú÷Ç„2J$3fc23888-760d-4daf-aba2-1229eb4e7ea0
 —
-java:S1104$"TMake cmbSizes a static final constant or non-public and provide accessors if needed.(ĞÇÀ8’Ú÷Ç„2J$6418f20f-18f9-40a8-aac7-532ed49b5902
+java:S1104$"TMake cmbSizes a static final constant or non-public and provide accessors if needed.(ĞÇÀ8’Ú÷Ç„2J$edea08cc-9a78-4bfe-879c-ca6df9b4f12d
 š
-java:S1104%"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8’Ú÷Ç„2J$48bbdf32-cad8-4404-9b73-e32ae5dadba1
+java:S1104%"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8’Ú÷Ç„2J$a49537e9-269c-4e13-93c7-a62c6d72ceaa
  
-java:S1104&"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8’Ú÷Ç„2J$1bb0a3ef-b53c-45bf-863d-5af5adbe76ce
+java:S1104&"XMake txtUnitPrice a static final constant or non-public and provide accessors if needed.(©›×Ğùÿÿÿÿ8’Ú÷Ç„2J$24ab3d75-4c61-4067-9fd4-f30ec2052b40
 ¡
-java:S1104'"YMake lblSuppStatus a static final constant or non-public and provide accessors if needed.(‘õáöùÿÿÿÿ8’Ú÷Ç„2J$57e161e6-8137-4636-996c-9a4f4cf3203c
+java:S1104'"YMake lblSuppStatus a static final constant or non-public and provide accessors if needed.(‘õáöùÿÿÿÿ8’Ú÷Ç„2J$88f269fc-a120-46e9-9e91-36a3e27af8c3
 ¡
-java:S1104("YMake lblSizeStatus a static final constant or non-public and provide accessors if needed.(ªëá¬ùÿÿÿÿ8’Ú÷Ç„2J$7c9a7235-63fa-4f3b-b8f9-1c5d732dd107
+java:S1104("YMake lblSizeStatus a static final constant or non-public and provide accessors if needed.(ªëá¬ùÿÿÿÿ8’Ú÷Ç„2J$4294d9f7-5780-441f-ad77-420420c9178b
 j
-java:S5411H"(Use a primitive boolean expression here.(íôÓ-8”Ú÷Ç„2J$4c28df42-2dec-4982-8106-8baa49c6338d
+java:S5411I"(Use a primitive boolean expression here.(íôÓ-8”Ú÷Ç„2J$1b3ec910-eb9f-4b5c-85b3-8317b960ff6d
 „
-java:S4973v"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$6d2356f0-94de-4033-8a47-f32fce67b405
+java:S4973w"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$62d41d88-a265-4f0b-9f1a-611761f19f77
 …
-java:S4973Ÿ"<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$06162673-c467-49a8-be9a-b566b1c1beff
+java:S4973 "<Strings and Boxed types should be compared using "equals()".(¢µúÌùÿÿÿÿ8•Ú÷Ç„2J$182f34a9-7444-45a4-a0b4-d9480598e185
 
-java:S2095Ì"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8éÚ÷Ç„2J$45eb2f7d-12fd-42c7-9ef7-ea7c8da7106f
+java:S2095±"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8âÿ—É„2J$9bf7efe6-7f97-49b6-9616-f5131030b483
 
-java:S2095°"GUse try-with-resources or close this "Statement" in a "finally" clause.(Š“á¡ÿÿÿÿÿ8âÿ—É„2J$648a8249-b71c-4b8a-862c-b4adef90ea97
+java:S2095Í"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8éÚ÷Ç„2J$14808375-a5f2-40ff-ab26-b2534b2afbdd
 
-java:S2095Ö"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8éÚ÷Ç„2J$e578454f-0b3d-4100-b0da-f71eeffbf61c
+java:S2095×"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8éÚ÷Ç„2J$0dbd0362-1f74-423e-9113-73eddfd729fc
 ‹
-java:S2095À"GUse try-with-resources or close this "Statement" in a "finally" clause.(µüß‹8éÚ÷Ç„2J$859b54c3-900c-420f-bcfe-c7fec1da310f
+java:S2095Á"GUse try-with-resources or close this "Statement" in a "finally" clause.(µüß‹8éÚ÷Ç„2J$cf2b6162-93b8-48d7-9ad8-8369e0cfc09d
 z
-java:S11725"2Remove this unused method parameter "actionEvent".(‘¿¯µÿÿÿÿÿ8óÚ÷Ç„2J$575d8427-b21a-46dc-aa9e-2e40199e14fa
-•	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡—ü§üÿÿÿÿ8òÚ÷Ç„2J$509eee25-08b6-4f2b-b025-3762e784a856
+java:S11726"2Remove this unused method parameter "actionEvent".(‘¿¯µÿÿÿÿÿ8óÚ÷Ç„2J$a0bd0b8c-4552-484a-b475-8c487d78b309
+•	java:S100E"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡—ü§üÿÿÿÿ8òÚ÷Ç„2J$99f28ff1-0180-43a0-bfb9-1e9fd1f045e8
 i
-java:S1125H"'Remove the unnecessary boolean literal.(íôÓ-8ôÚ÷Ç„2J$b9444cff-393f-49b8-846d-7ad7ce62ada8
+java:S1125I"'Remove the unnecessary boolean literal.(íôÓ-8ôÚ÷Ç„2J$371112f3-4c91-4eaf-9f92-4a45f8bd24bb
 k
-java:S1125±"'Remove the unnecessary boolean literal.(°¦À¢8‚Û÷Ç„2J$3c157ec0-2b30-4426-b78f-20b58aa8b8a5
+java:S1125²"'Remove the unnecessary boolean literal.(°¦À¢8‚Û÷Ç„2J$0a8207a3-d187-4e47-8cb7-d966d64a3af5

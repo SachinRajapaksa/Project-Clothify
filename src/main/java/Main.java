@@ -13,7 +13,7 @@ public class Main extends Application{
     }
     @Override
     public void start(Stage Pstage) throws Exception {
-        Pstage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/login-form.fxml"))));
+        Pstage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/front-system.fxml"))));
         Pstage.getIcons().add(new Image(Main.class.getResourceAsStream("img/icon.png")));
         Pstage.setTitle("Clothify");
         Pstage.initStyle(StageStyle.DECORATED);

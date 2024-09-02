@@ -18,10 +18,12 @@ public class DashboardFormController implements Initializable {
     public static String acctype=" ";
 
 
+
     public Label txtUsername;
     public Label txtUserType;
 
     public void btnEmpOnAction() throws Exception {
+        setLabels();
         Stage stage = new Stage();
         stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/add-emp-form.fxml"))));
         stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/emp1.png")));
@@ -31,6 +33,7 @@ public class DashboardFormController implements Initializable {
     }
 
     public void btnItemOnAction() throws IOException {
+        setLabels();
         Stage stage = new Stage();
         stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/add-item-form.fxml"))));
         stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/item.png")));
@@ -39,6 +42,7 @@ public class DashboardFormController implements Initializable {
     }
 
     public void btnSupplierOnAction() throws IOException {
+        setLabels();
         Stage stage = new Stage();
         stage.setScene(new Scene(FXMLLoader.load(Main.class.getResource("view/add-supplier-form.fxml"))));
         stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/supplier.png")));
@@ -46,7 +50,19 @@ public class DashboardFormController implements Initializable {
         stage.show();
     }
 
-    public void btnFrontSystemOnAction() {
+    public void btnFrontSystemOnAction() throws IOException {
+        setLabels();
+        Stage stage = new Stage();
+        Scene scene = new Scene(FXMLLoader.load(Main.class.getResource("view/front-system.fxml")));
+        stage.setScene(scene);
+        stage.getIcons().add(new Image(Main.class.getResourceAsStream("img/Front.png")));
+        stage.setTitle("Clothify Front System");
+        scene.setOnKeyPressed(event ->{
+            String keyText = event.getText();
+
+        });
+        stage.show();
+
 
 
     }
